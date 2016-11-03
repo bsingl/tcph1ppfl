@@ -1,0 +1,189 @@
+html, body, wrapper, header, nav, footer {
+    margin: 0;
+    padding: 0;}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.4em;
+    margin: 5px auto;
+    padding: 10px;
+    background-image: url("../images/film-grain.jpg");}
+
+#wrapper {
+    width: 60%;
+    margin: 0px auto;
+    background: rgba(255,255,255,0.6);}
+
+header {
+    height: 80px;}
+
+h1 {
+    width: 100%;
+    height: 60px;
+    margin: 1px auto;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 7px #111111;}
+
+/*navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;}
+
+nav li {
+    float: right;}
+
+nav li a, .dropbtn {
+    color: #000000;
+    width: 50px;
+    display: inline-block;
+    padding: 5px 25px;;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px #111111;}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color: #ff0000;
+    background: rgba(255,255,255,0.5);}
+
+li.dropdown {
+    display: inline-block;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(255,255,255,0.5);}
+
+.dropdown-content a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    text-align: left;}
+
+.dropdown-content a:hover {
+    color: #ff0000;
+    background: rgba(255,255,255,0.3);}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+/*navbar*/
+
+.greer {
+    display: block;
+    margin: 0px auto;
+    width: 95%;
+    padding: 0px 0px 35px 0px;}
+
+/*bio*/
+.bkgrd {
+    float: left;
+    width: 66%;
+    text-align: justify;     
+    line-height: 1.60em;
+    padding: 0px 30px;}
+
+.quote {
+    float: left;
+    width: 120%;
+    font-size: 120%;
+    font-style:italic;
+    margin: 60px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;}
+
+.quote1 {
+    float: left;
+    width: 120%;
+    font-size: 120%;
+    font-style:italic;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;}
+    
+.trivia {
+    float: left;
+    width: 66%;
+    text-align: justify;     
+    line-height: 1.60em;
+    padding: 0px 30px 20px 30px;}
+/*bio*/
+
+/*movies*/
+.movies {
+    float: left;
+    width: 66%;
+    padding: 0px 30px;}
+
+.movies img {
+    display: inline-block;
+    margin: 10px 25px 25px 0px;
+    width: 28%;}
+
+.othermovies {
+    width: 120%;
+    margin: 150px 0px 10px 10px;
+    padding: 10px;}
+/*movies*/
+    
+.about {
+    float: left;
+    width: 66%;
+    text-align: justify;     
+    line-height: 1.9em;
+    padding: 0px 30px 80px 30px;}
+
+.about img.align-left {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;}
+
+/*aside movies page*/
+aside section a {
+    display: block;
+    padding: 10px;}
+
+aside section a:hover {
+    color: #000000;
+    background: rgba(255,255,255 0.5);}
+
+aside a {
+    color: #ff0000;
+    text-decoration: none;}
+
+aside h2 {
+    font-size: 20px;}
+/*aside movie page*/
+
+aside {
+    width: 23%;
+    float: right;
+    padding: 0px 0px 25px 10px;}
+
+h2, h3 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #111111;
+    letter-spacing: 0.2em;}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #ff0000;}
+
+/*footer*/
+footer {
+    clear: both;
+    font-size: 80%;
+    padding: 5px 0px 5px 20px;}
+/*footer*/
